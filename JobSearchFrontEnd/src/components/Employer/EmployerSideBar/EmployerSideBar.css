@@ -1,0 +1,52 @@
+.OuterContainer__EmployerSideBar{
+    flex : 0.15;
+    border-right: 1px solid #f2f2f2;
+    height: 100vh;
+    width: auto;
+}
+
+.EmployerSideBarRow{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+}
+
+.EmployerSideBarRow__icon{
+    color: #606060;
+    font-size: large !important;
+}
+
+.EmployerSideBarRow__title{
+    margin-top: 5px;
+    flex : 1;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.EmployerSideBarRow:hover{
+    background-color: #f2f2f2;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.EmployerSideBarRow:hover > .EmployerSideBarRow__icon{
+    color: red;
+}
+
+.EmployerSideBarRow:hover > .EmployerSideBarRow__title{
+    font-weight: bold;
+}
+
+
+.EmployerSideBarRow.selected{
+    background-color: #e6e6e6;
+}
+
+.EmployerSideBarRow.selected > .EmployerSideBarRow__icon{
+    color: red;
+}
+
+.EmployerSideBarRow.selected > .EmployerSideBarRow__title{
+    font-weight: bold;
+}

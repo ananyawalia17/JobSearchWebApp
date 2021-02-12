@@ -1,0 +1,19 @@
+.InnerContainer{
+    width:400px;
+    margin: auto;
+}
+
+.OuterContainer{
+    background-image: url('../../assets/background.jpg');
+    height: 100%;
+}
+
+.InputFeedback{
+    color: green;
+    font-size: 13px;
+}
+
+.InputFeedback_red{
+    color: red;
+    font-size: 13px;
+}
